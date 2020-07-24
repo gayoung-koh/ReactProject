@@ -1,6 +1,6 @@
 # Exercise2
 
-## chapter 3.4 ~
+## chapter 3.4 ~ 3.6
 
 ### 리액트 state
 
