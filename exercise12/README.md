@@ -40,7 +40,15 @@ console.log('대기 중...');
 - 가장 많이 사용되고 있는 자바스크립트 HTTP 클라이언트
 - HTTP 요청을 Promise 기반으로 처리
 
-### components
+### News Viewer components
 
-- NewsItem
-- NewsList
+- components/NewsItem
+- components/NewsList
+- components/Categories
+- pages/NewsPage
+- lib/usePromise
+
+#### 유의사항
+
+- useEffect에 등록하는 함수는 async로 작성하지 말것
+- 함수 내부에 async 함수를 따로 만든다
