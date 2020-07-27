@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gayoung-koh/ReactProject/issues"
   },
-  "homepage": "https://github.com/gayoung-koh/ReactProject#readme"
+  "homepage": "https://github.com/gayoung-koh/ReactProject#readme",
+  "dependencies": {
+    "node-gyp": "^7.0.0"
+  }
 }
