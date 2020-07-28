@@ -31,3 +31,12 @@ makeContainer(타깃 컴포넌트)
 - 리덕스를 편하게 사용할 수 있음
 - redux-actions: createAction, handleActions 함수를 사용하여 액션 생성 함수와 리듀서 함수를 짧은 코드로 구현할 수 있음
 - immer: 객체의 구조가 복잡하거나 객체 배열을 다뤄야 하는 경우 ...(spread operator)를 사용하지 않고 immer를 사용하면 좋음
+
+#### Hooks를 사용한 컨테이터 컴포넌트
+
+- connect 함수 대신 Hooks 사용 가능
+- useSelector, useDispatch, useStore
+- useDispatch는 useCallback과 함께 사용하는 것을 권장함
+- useActions 유틸 Hook 만들어 사용
+- connect함수는 해당 컨테이너 컴포넌트의 부모 컴포넌트가 리렌더링 될 때, 해당 컨테이너 컴포넌트의 props가 바뀌지 않았을 경우엔 리렌더링 방지하여 성능을 최적화 함
+- useSelector를 사용할 경우 React.memo를 컨테이너 컴포넌트에 사용하여 성능을 최적화해주어야 함
