@@ -18,6 +18,7 @@
   "homepage": "https://github.com/gayoung-koh/ReactProject#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "node-gyp": "^7.0.0"
+    "node-gyp": "^7.0.0",
+    "redux-logger": "^3.0.6"
   }
 }
