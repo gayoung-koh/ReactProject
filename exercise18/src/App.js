@@ -4,7 +4,7 @@ import Menu from "./components/Menu";
 import RedPage from "./pages/RedPage";
 import BluePage from "./pages/BluePage";
 
-const App = () => {
+function App() {
   return (
     <div>
       <Menu />
@@ -13,6 +13,6 @@ const App = () => {
       <Route path="/blue" component={BluePage} />
     </div>
   );
-};
+}
 
 export default App;
